@@ -1,0 +1,346 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.Container{
+    width: 100%;
+    height: 100%;
+    background-color: bl;
+    position: absolute;
+}
+.header{
+
+    width: 100%;
+    background-color: #1d2226;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px .5px 1px  white;
+
+}
+.header-left{
+
+    width: 30%;
+    height: 60px;
+    background-color:  #1d2226;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+  
+
+
+
+}
+.search-bar {
+
+    width: 90%;
+    background-color: #1d2226;
+    color: gray;
+
+    
+}
+.header-logo{
+    width: 30px;
+    height: 30px;
+    background-image: url("image/li.png");
+    -webkit-background-size:cover;
+    background-size: cover;
+    border-radius: 2px;
+}
+.left{
+
+    margin-top: 15px;
+}
+
+
+.header-right{
+    width: 70%;
+    background-color: #3a93dc;
+    display: flex;
+    height: 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav-item{
+    
+    background-color: #1d2226;
+    width: 50px;
+    height:10px;
+    margin-top: 10px;
+    color: gray;
+}
+.nav-item:hover{
+
+    color: white;
+}
+.nav-text{
+    background-color: #1d2226; color: gray; margin-top: -5px; margin-left: -15px;
+}
+.main-body{
+
+   width:89%.5;
+   height: 100%;
+   
+    background-color: black;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+}
+.left-section-body{
+
+    width: 270px;
+    height: 850px;
+    background-color: black;
+    
+    
+
+    
+}
+.upper-section-profile{
+
+    width: 100%;
+    height: 50%;
+    background-color:#1d2226;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.left-lower-section{
+    width: 100%;
+    height: 80%;
+    background-color:#1d2226;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.profile-background{
+
+    width: 100%;
+    height: 100px;
+    background-color: wheat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url("image/profile-bg.jpeg");
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+.profile-icon{
+
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-top: 55px;
+    margin-left: 35%;
+    background-image: url("image/profile.png");
+    -webkit-background-size:cover ;
+    background-size: cover;
+}
+.Heading-style{
+color: white; 
+background-color: #1d2226;
+ font-size: 20px;
+ font-weight: 100;
+font-family: Arial, Helvetica, sans-serif;
+ margin-left: 35%;
+margin-top: 30px;
+}
+.para-style{
+width: 200px;
+    color: gray; 
+background-color: #1d2226;
+ font-size: 13px;
+ margin-left: 30px;
+ font-weight: 100;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 12px;
+}
+.center-body-content-scaffold{
+    width: 558px;
+    height: 100%;
+    background-color: black;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.user-post-create-section{
+
+    width: 100%;
+    padding-bottom: 20px;
+    background-color:#1d2226;
+    border-radius: 10px;
+
+}
+.post-create-type-box{
+
+    width:85%;
+    height: 40px;
+    background-color: #1d2226;
+    margin-top: -45px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+.post-icons-section{
+    background-color: transparent;
+    color: transparent;
+    background-color: #1d2226;
+    margin-top: 50px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    position: relative;
+
+}
+.post-feeds-block{
+
+    width: 100%;
+    height: 1000px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+   
+}
+.post-feed-page-detail{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post-one{
+    width: 100%;
+    height: 1200px;
+    background-color: #1d2226;
+    border-radius: 20px;
+    margin-top: -10px;
+   
+}
+.post-two{
+    width: 100%;
+    height: 1200px;
+    background-color: #1d2226;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.sub-details{
+    display: flex;
+    flex-direction: column;
+}
+.content-one-box{
+
+    width: 100%;
+    height: 450px;
+    background-color: #1d2226;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+.content-two-box{
+
+    width: 100%;
+    height: 450px;
+    background-color: #1d2226;
+    background-image: url("image/amazon.jpg");
+
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+.post-intraction-live{
+
+    width: 100%;
+    height: 40px;
+    background-color: #1d2226;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.emoji-section{
+
+    width: 100px;
+    height: 40px;
+    display: flex;
+    margin-left: 20px;
+    background-color: #1d2226;
+    
+}
+.emoji{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: -3px;
+    background-color: transparent;
+
+}
+.user-input-intraction{
+    width: 90%;
+    height: 30px;
+    background-color: #1d2226;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.right-section-outer{
+
+    width: 400px;
+    height: 1000px;
+    background-color:black;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.right-news-section{
+
+    width: 350px;
+    height: 350px;
+    background-color: #1d2226;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+.right-adds-section{
+    width: 350px;
+    height:4000px;
+    background-color: #1d2226;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+}
+.right-quick-nav{
+
+    width: 350px;
+    height:5000px;
+    background-color: black;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+   
+}
+.messaging{
+
+    width: 300px;
+    height: 50px;
+    background-color: wheat;
+    margin-top: 50%;
+    float: right;
+    
+}
